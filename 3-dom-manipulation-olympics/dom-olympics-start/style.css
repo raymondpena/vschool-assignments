@@ -38,3 +38,6 @@ body {
     align-self: flex-start;
     background-color: burlywood;
 }
+#name{
+    text-align: center;
+}
