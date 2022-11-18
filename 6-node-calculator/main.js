@@ -14,7 +14,7 @@ function divide(num1, num2){
 }
 var firstNumber = readlineSync.question("Please enter your first number ")
 var secondNumber = readlineSync.question("Please enter your second number ")
-var operation = readlineSync.question("Please enter the operation to perform: add, sub, mul, div ")
+var operation = readlineSync.question("Please enter the operation to perform: 'add', 'sub', 'mul', or 'div'- ")
 
 if(operation == "add"){
     console.log("The result is:" + "[" + add(firstNumber, secondNumber) + "]")
